@@ -1,0 +1,16 @@
+extends:
+  - '@appbooster/eslint-config-base'
+rules:
+  # Github API works with snake_case so it is faster to use them in JS too
+  camelcase: 'warn'
+  comma-dangle:
+    [
+      'error',
+      {
+        'arrays': 'always-multiline',
+        'objects': 'always-multiline',
+        'imports': 'always',
+        'exports': 'always',
+        'functions': 'ignore',
+      },
+    ]
