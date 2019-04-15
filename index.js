@@ -15,7 +15,7 @@ module.exports = (app) => {
       return
     }
 
-    const match = comment.body.match(/run on circleci:\s*(.+)$/)
+    const match = comment.body.match(/run on circleci:\s*([a-zA-Z0-9\-\_])+\s*$/)
 
     if (!match) {
       log(`Not a run circleci command (${comment.body})`)
