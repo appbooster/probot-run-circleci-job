@@ -2,9 +2,10 @@
 # yarn lockfile v1
 
 
-"@appbooster/eslint-config-base@^1.4.0":
+"@appbooster/eslint-config-base@1.4.0":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@appbooster/eslint-config-base/-/eslint-config-base-1.4.0.tgz#b1f02ab71431de3d605a5c580d6c20551f00962b"
+  integrity sha512-DRsZ82yPhC1y0me1xPgxDaXHte0IceLefOJWxTqPhtYgnXRIyQxheLC8B9ePyFdBlYHIPSl1/V86UAofe83pyg==
   dependencies:
     babel-eslint "^9.0.0"
     eslint-config-airbnb-base "^13.0.0"
@@ -915,9 +916,10 @@ eslint-visitor-keys@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
 
-eslint@^5.10.0:
+eslint@5.10.0:
   version "5.10.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-5.10.0.tgz#24adcbe92bf5eb1fc2d2f2b1eebe0c5e0713903a"
+  integrity sha512-HpqzC+BHULKlnPwWae9MaVZ5AXJKpkxCVXQHrFaRw3hbDj26V/9ArYM4Rr/SQ8pi6qUPLXSSXC4RBJlyq2Z2OQ==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     ajv "^6.5.3"
@@ -2071,9 +2073,10 @@ nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
 
-nock@^10.0.0:
+nock@10.0.4:
   version "10.0.4"
   resolved "https://registry.yarnpkg.com/nock/-/nock-10.0.4.tgz#44f5dcfe0a6b09f95d541f6b3f057cfabbbd2a3a"
+  integrity sha512-+kzpiUmJHl2j/ZdJG4Mc3oHJc4F1Tm9j0KV/SLhLKZQGTQkeK2z1XxhVIbM2evP3yn0RVlp7L1xZNIy84J8/1A==
   dependencies:
     chai "^4.1.2"
     debug "^4.1.0"
@@ -2104,9 +2107,10 @@ node-pre-gyp@^0.10.0:
     semver "^5.3.0"
     tar "^4"
 
-nodemon@^1.17.2:
+nodemon@1.18.8:
   version "1.18.8"
   resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-1.18.8.tgz#eb4c0052dc81395bdc503f3c8ae3cba86ca7146a"
+  integrity sha512-CgC/JdCf+CT7Z+K6wWaV30t8GU1DPtXpr/6PuXC1/LboXCmUQNKOaz0AEMjoWDTt2AdHOBFxgv41dyC0i79SbA==
   dependencies:
     chokidar "^2.0.4"
     debug "^3.1.0"
@@ -2436,9 +2440,10 @@ prepend-http@^1.0.1:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
 
-probot@^7.2.0:
+probot@7.4.0:
   version "7.4.0"
   resolved "https://registry.yarnpkg.com/probot/-/probot-7.4.0.tgz#96a70148e8a114bcba75fd1a261155a559916cc5"
+  integrity sha512-xyvra7baRi8o/KortENZHFae8TZCBHvrKKTVvL1l5DhLBb1mfey+6AM2bxEai5ajDkrKnNiA69aDtb32WO5bRQ==
   dependencies:
     "@octokit/rest" "^15.18.0"
     "@octokit/webhooks" "^5.0.2"
@@ -2789,9 +2794,10 @@ slice-ansi@2.0.0:
     astral-regex "^1.0.0"
     is-fullwidth-code-point "^2.0.0"
 
-smee-client@^1.0.2:
+smee-client@1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/smee-client/-/smee-client-1.0.2.tgz#2b7e72d7ab383e5d6e4a17ae00cd07503cbcf25d"
+  integrity sha512-JySe+9HBQzXWmlxDSV7Ac8i+eYwFTF2OiKl8ehWw3SbaAKznqm83lOrWtX6fwr/F2eGkkgW13ND2FzFDK5bx8g==
   dependencies:
     commander "^2.12.2"
     eventsource "^1.0.5"

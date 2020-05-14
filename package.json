@@ -18,14 +18,14 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "probot": "^7.2.0"
+    "probot": "7.4.0"
   },
   "devDependencies": {
-    "@appbooster/eslint-config-base": "^1.4.0",
-    "eslint": "^5.10.0",
-    "nock": "^10.0.0",
-    "nodemon": "^1.17.2",
-    "smee-client": "^1.0.2"
+    "@appbooster/eslint-config-base": "1.4.0",
+    "eslint": "5.10.0",
+    "nock": "10.0.4",
+    "nodemon": "1.18.8",
+    "smee-client": "1.0.2"
   },
   "engines": {
     "node": ">= 8.3.0"
